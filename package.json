@@ -1,0 +1,17 @@
+{
+  "name": "github-actions-pnpm-cache-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@stardust-configs/prettier-config": "0.3.0",
+    "prettier": "3.1.1"
+  },
+  "private": true
+}

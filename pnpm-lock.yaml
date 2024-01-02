@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  '@stardust-configs/prettier-config':
+    specifier: 0.3.0
+    version: 0.3.0(prettier@3.1.1)
+  prettier:
+    specifier: 3.1.1
+    version: 3.1.1
+
+packages:
+
+  /@stardust-configs/prettier-config@0.3.0(prettier@3.1.1):
+    resolution: {integrity: sha512-pixGCsdTBO4MGkwNL6YNNSypP4dXmeog6bvhS2vXDfNArJR84pLWAhAJFApkEfWf/Gaok0xN2lPRGeF297VBng==}
+    peerDependencies:
+      prettier: ^3.0.0
+    dependencies:
+      prettier: 3.1.1
+    dev: true
+
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
